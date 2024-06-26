@@ -24,8 +24,6 @@ clubes.forEach(function(e){
    });
 });
 
-
-
 carrossel.addEventListener("mouseover", ()=>{
    tituloCarrossel.style.opacity = 1;
 });
