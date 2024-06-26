@@ -1,0 +1,49 @@
+:root {
+   font-size: 62.5%;
+   font-family: "Ubuntu", sans-serif;
+   font-style: normal;
+}
+
+.cabecalho{
+   width: 100vw;
+   height: 15vh;
+   display: flex;
+   justify-content: center;
+}
+
+.cabecalho .navbar{
+   width: 90vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+ul{
+   display: flex;
+   gap: 30px;
+   font-size: 2rem;
+}
+
+.link a{
+   position: relative;
+   padding-bottom: 0.75rem;
+
+}
+.link a::after{
+   content: "";
+   position: absolute;
+   height: 3px;
+   width: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #000;
+   transition: all 0.3s ease;
+}
+
+.link a:hover::after{
+   width: 75%;
+}
+
+.logoHome{
+   width: 80px;
+}
