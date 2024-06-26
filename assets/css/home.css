@@ -9,6 +9,7 @@ body{
    display: flex;
    justify-content: center;
    flex-direction: column;
+   overflow-x: hidden;
 }
 
 .cabecalho{
@@ -57,7 +58,7 @@ ul{
 
 main{
    width: 100vw;
-   display: flex;
+   display: flex !important;
    justify-content: center;
    flex-direction: column;
    align-items: center;
@@ -143,7 +144,7 @@ main{
    filter: grayscale(0%);
 }
 
-footer{
+.exibicaoFlex{
    margin-top: 5rem;
    width: 100vw;
    display: flex;
@@ -151,34 +152,34 @@ footer{
    align-items: center;
 }
 
-footer section{
+.exibicaoFlex section{
    width: 90vw;
    border: 3px solid #000;
    display: flex;
    align-items: center;
 }
 
-footer section img{
+.exibicaoFlex section img{
    width: 60rem;
    border-right: 3px solid #000;
 }
 
-footer section div{
+.exibicaoFlex section div{
    padding: 2rem;
    display: flex;
    flex-direction: column;
    gap: 2rem;
 }
 
-footer section div h1{
+.exibicaoFlex section div h1{
    font-size: 4rem;
 }
 
-footer section div p{
+.exibicaoFlex section div p{
    font-size: 2rem;
    text-align: justify;
 }
 
 .hide{
-   display: none;
+   display: none !important;
 }
